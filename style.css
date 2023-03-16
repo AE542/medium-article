@@ -1,0 +1,71 @@
+.header {
+  padding: 120px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;;
+  color: white;
+  font-size: 25px;
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+}
+
+h2 {
+  color: grey;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph-card {
+font-size: 20px;
+font-weight: 300;
+text-align: left;
+width: 700px;
+margin: 50px auto;
+}
+
+
+a {
+  text-decoration: none;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 22px;
+  color: lightslategray;
+  font-family: verdana;
+  background-color: lightgreen;;
+}
+
+a:hover {
+  background-color: greenyellow;
+}
+
+
+@media (max-width: 400px) {
+  .container {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
